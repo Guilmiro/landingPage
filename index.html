@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="pt-AO">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>V-Tec Global — Tecnologia com Propósito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="w">
+        <a class="logo" href="#hero" aria-label="V-Tec Global">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="16" fill="#42AD89" />
+            <path
+              d="M8 9l8 15 8-15"
+              fill="none"
+              stroke="#EDEDED"
+              stroke-width="3.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          V-Tec <small>GLOBAL</small></a
+        >
+        <nav id="main-menu" aria-label="Navegação principal">
+          <a href="#sobre">Sobre nós</a><a href="#solucoes">Soluções</a
+          ><a href="#comunidade">Comunidade</a>
+        </nav>
+        <div class="r">
+          <a class="btn p" href="#contacto">Conversar</a
+          ><button
+            class="mb"
+            type="button"
+            aria-label="Abrir menu"
+            aria-controls="main-menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="w">
+      <div
+        class="hero"
+        id="hero"
+        role="region"
+        aria-label="Destaques V-Tec"
+        aria-roledescription="carrossel"
+      >
+        <div class="slide on" aria-hidden="false">
+          <span class="tag">V-Tec Global</span>
+          <h1>Tecnologia com Propósito.</h1>
+          <p>
+            Soluções tecnológicas integradas que levam inclusão, crescimento e
+            sustentabilidade a pessoas, empresas e comunidades angolanas.
+          </p>
+          <div class="row">
+            <a class="btn g" href="#solucoes">Conheça as soluções</a
+            ><a class="btn s" href="#sobre">Sobre nós</a>
+          </div>
+        </div>
+        <div class="slide" aria-hidden="true">
+          <span class="tag">V-Connect</span>
+          <h1>Uma identidade digital. Zero fricção.</h1>
+          <p>
+            Plataforma de identidade e dados como serviço que simplifica o
+            acesso para cidadãos e dá às organizações dados qualificados via
+            API.
+          </p>
+          <div class="row">
+            <a class="btn g" href="#comunidade">Explorar V-Connect</a
+            ><a class="btn s" href="#contacto">Falar com a equipa</a>
+          </div>
+        </div>
+        <div class="slide" aria-hidden="true">
+          <span class="tag">Ecossistema</span>
+          <h1>Se não inclui, não é V-Tec.</h1>
+          <p>
+            Mobilidade, finanças, agro, saúde e educação: aplicações de consumo
+            que validam a engenharia que entregamos a organizações.
+          </p>
+          <div class="row">
+            <a class="btn g" href="#hype">Ver impacto</a
+            ><a class="btn s" href="#sobre">Os nossos valores</a>
+          </div>
+        </div>
+        <div class="dots" role="group" aria-label="Escolher destaque">
+          <button
+            class="on"
+            type="button"
+            aria-label="Mostrar destaque 1"
+            aria-pressed="true"
+          ></button>
+          <button
+            type="button"
+            aria-label="Mostrar destaque 2"
+            aria-pressed="false"
+          ></button>
+          <button
+            type="button"
+            aria-label="Mostrar destaque 3"
+            aria-pressed="false"
+          ></button>
+        </div>
+      </div>
+
+      <section id="solucoes">
+        <div class="head">
+          <div>
+            <h2>O que fazemos?</h2>
+            <p id="sobre">
+              Atuamos de ponta a ponta na cadeia de valor tecnológica, desde
+              soluções de engenharia, consultoria e gestão de sistemas, à
+              infraestrutura de mobilidade e consumo.
+            </p>
+          </div>
+          <div class="ar" role="group" aria-label="Controlos das soluções">
+            <button
+              type="button"
+              data-t="sc1"
+              data-d="-1"
+              aria-label="Anterior"
+            >
+              ←
+            </button>
+            <button
+              type="button"
+              data-t="sc1"
+              data-d="1"
+              aria-label="Seguinte"
+            >
+              →
+            </button>
+          </div>
+        </div>
+        <div
+          class="sc"
+          id="sc1"
+          role="region"
+          tabindex="0"
+          aria-label="Soluções V-Tec"
+        >
+          <div class="card im i1">
+            <div class="ic">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" />
+              </svg>
+            </div>
+            <h3>Engenharia e Gestão de Sistemas</h3>
+            <p>
+              Desenvolvimento, integração e manutenção de sistemas à medida para
+              organizações de todas as dimensões.
+            </p>
+            <a href="#contacto">Saiba mais →</a>
+          </div>
+          <div class="card im i2">
+            <div class="ic">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="9" cy="8" r="3" />
+                <path
+                  d="M3 20c0-4 3-6 6-6s6 2 6 6M17 11a3 3 0 100-6M21 20c0-3-1-5-3-6"
+                />
+              </svg>
+            </div>
+            <h3>Consultoria e Capacitação Corporativa</h3>
+            <p>
+              Estratégia, transformação digital e formação para equipas que
+              querem crescer com tecnologia.
+            </p>
+            <a href="#contacto">Saiba mais →</a>
+          </div>
+          <div class="card im i3">
+            <div class="ic">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M7 18a4 4 0 010-8 5 5 0 019.5-1A4.5 4.5 0 0117 18z" />
+              </svg>
+            </div>
+            <h3>Infraestrutura</h3>
+            <p>
+              Nuvem, conectividade e segurança de dados, com soberania local
+              para todo o ecossistema.
+            </p>
+            <a href="#contacto">Saiba mais →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stk">
+        <div class="kn">
+          <div class="vid">
+            <div class="play">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="#04231a">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+          <div>
+            <span class="tag">V-Tec Key Note</span>
+            <h2>Ideias que movem o mercado angolano</h2>
+            <p class="copy">
+              Conversas com líderes, engenheiros e empreendedores sobre
+              tecnologia, inclusão e o futuro da economia digital em Angola.
+            </p>
+            <a class="btn p" href="#comunidade">Ver episódios</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="hype" class="stk hy">
+        <div class="hype">
+          <div>
+            <h2>Transformando para além do hype</h2>
+            <p>
+              Exploramos a tecnologia para além da moda do mercado. Todos os
+              dias entregamos mais valor a famílias, empresas e organizações
+              públicas e privadas: do varejo, saúde, educação, agro e mobilidade
+              à gestão ambiental e de resíduos e ao empoderamento do consumidor.
+            </p>
+          </div>
+          <a class="btn g" href="#solucoes">Explorar</a>
+        </div>
+      </section>
+
+      <section id="comunidade" class="stk">
+        <div class="head">
+          <div>
+            <h2>Comunidade</h2>
+            <p>
+              Do pensamento crítico e investimento à pesquisa e desenvolvimento,
+              colaboramos com os mais ousados para responder aos maiores
+              desafios das comunidades angolanas.
+            </p>
+          </div>
+          <div class="ar" role="group" aria-label="Controlos da comunidade">
+            <button
+              type="button"
+              data-t="sc2"
+              data-d="-1"
+              aria-label="Anterior"
+            >
+              ←
+            </button>
+            <button
+              type="button"
+              data-t="sc2"
+              data-d="1"
+              aria-label="Seguinte"
+            >
+              →
+            </button>
+          </div>
+        </div>
+        <div
+          class="sc"
+          id="sc2"
+          role="region"
+          tabindex="0"
+          aria-label="Iniciativas da comunidade"
+        >
+          <div class="card im i4">
+            <span class="tag">Carreira</span>
+            <h3 class="card-title">Cresça pelo impacto</h3>
+            <p>
+              Duas trilhas, técnica e de gestão, com o mesmo peso. Aqui o
+              impacto dita a promoção.
+            </p>
+            <a href="#contacto">Ver oportunidades →</a>
+          </div>
+          <div class="card im i5">
+            <span class="tag">V-Tec Key Note</span>
+            <h3 class="card-title">Conhecimento partilhado</h3>
+            <p>
+              Sessões abertas sobre tecnologia, negócios e inovação com impacto
+              real.
+            </p>
+            <a href="#contacto">Assistir →</a>
+          </div>
+          <div class="card im i6">
+            <span class="tag">V-Tec Connect</span>
+            <h3 class="card-title">Rede de parceiros</h3>
+            <p>
+              Ligamos pessoas, negócios e comunidades a oportunidades reais de
+              crescimento.
+            </p>
+            <a href="#contacto">Participar →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="cta">
+          <div>
+            <h2 class="contact-title">Pronto para colaborar?</h2>
+            <p>Converse connosco e explore o que temos para si.</p>
+          </div>
+          <a class="btn contact-link" href="mailto:info@vtec.ao">
+            Conversar com a equipa
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="w">
+        <div>
+          <div class="logo">V-Tec Global Lda</div>
+          <p class="copy footer-copy">
+            Pioneira em infraestrutura de mobilidade e consumo.
+          </p>
+        </div>
+        <div>
+          <h4>Soluções</h4>
+          <ul>
+            <li>Engenharia e Gestão de Sistemas</li>
+            <li>Consultoria e Capacitação Corporativa</li>
+            <li>Infraestrutura</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes sociais</h4>
+          <ul>
+            <li>LinkedIn</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cp">
+        © 2026 V-Tec Global Lda. Todos os direitos reservados.
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
